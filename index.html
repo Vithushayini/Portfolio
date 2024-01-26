@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="https://kit.fontawesome.com/d1526bdd45.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <span><span>V</span>ithushayini Shandrasegaran.</span>
+                 
+                    <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#accomplishments">Accomplishments</a></li>
+                        <li><a href="#knowledge">Knowledge</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                 
+                    
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                    
+                
+            </nav>
+
+            <div class="header-text">
+                <p>Software Engineering Undergraduate</p>
+                <h1>Hi, I'm <span>Vithushayini <br>Shandrasegaran</span><br> From Jaffna</h1>
+            </div>
+                
+            
+        </div>
+    </div>
+<!-- ----------------------about-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                <img src="images/user1.jpeg">
+               </div>
+               <div class="about-col-2">
+                <h1 class="sub-title"><span>A</span>bout Me</h1>
+                <p>I am Vithushayini, a dedicated student currently pursuing a degree in Software Engineering at the University of Kelaniya. I am currently in my second year of studies, where I am actively engaging with various aspects of software development and computer science. My passion for technology and problem-solving has driven me to explore the dynamic world of software engineering, where I am constantly learning and adapting to new challenges.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Programming Languages</span><br>C, Python, Java</li>
+                        <li><span>DataBase Management</span><br>SQL</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="certifications">
+                    <ul>
+                        <li><span>Commomwealth of Learning-Coursera</span><br>AI for Everyone, HTML, CSS, JS, Python</li>
+                        <li><span>Alison</span><br>Linux for Beginners</li>
+                        <li><span>Sololearn</span><br>C programming</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2006-2019</span><br>Jaffna Holy Family Convent</li>
+                        <li><span>Undergraduate</span><br>University of Kelaniya</li>
+                    </ul>
+                </div>
+
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------accomplishments------------------------>
+
+    <div id="accomplishments">
+        <div class="container">
+            <h1 class="sub-title">My Accomplishments</h1>
+            <div class="accomplishments-list">
+                <div>
+                 <h2>Ordinary Level</h2>
+                 <p><span>7A's and 2B's</span> <br>Mathematics-A <br>English Language-A  Science & Technology-A</p>
+                 <!-- <a href="#">Show More</a> -->
+                </div>
+
+                <div>
+                    <h2>Advanced Level</h2>
+                    <p><span>A and 2B's</span> <br>Mathematics-A <br>Chemistry-B <br> Physics-B</p>
+                    <!-- <a href="#">Show More</a> -->
+                   </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------knowledge------------------------------- -->
+
+    <div id="knowledge">
+        <div class="container">
+            <h1 class="sub-title">My Knowledge Levels</h1>
+            <p>HTML</p>
+            <div class="container1">
+                <div class="skills html">90%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container1">
+                <div class="skills css">80%</div>
+            </div>
+
+            <p>JavaSript</p>
+            <div class="container1">
+                <div class="skills js">65%</div>
+            </div>
+
+            <p>PHP</p>
+            <div class="container1">
+                <div class="skills php">60%</div>
+            </div>
+
+            <p>C</p>
+            <div class="container1">
+                <div class="skills c">90%</div>
+            </div>
+
+            <p>MySQL</p>
+            <div class="container1">
+                <div class="skills sql">90%</div>
+            </div>
+
+            <p>Python</p>
+            <div class="container1">
+                <div class="skills python">50%</div>
+            </div>
+
+            <p>Java</p>
+            <div class="container1">
+                <div class="skills java">50%</div>
+            </div>
+
+        </div>
+    
+    </div>
+
+    <!-- -----------------------contact-----------------------
+       -->
+
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vithushayini@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0760730639</p>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; Vithushayini.</p>
+        </div>
+       </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
